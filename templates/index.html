@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+
+
+
+        {% block players %}
+        <section class="players">
+            
+            
+                
+            <h2>Player choice:</h2>
+            <form action="/action_page.php" method="get">
+                <label for="browser">Make your choice from the list:</label>
+                <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                    <option value="rock">
+                    <option value="paper">
+                    <option value="scissors">
+                </datalist>
+                <input type="submit">
+            </form>
+
+            
+            
+            
+        </section>
+        {% endblock %}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <a href="base.html"></a>
+    <title>{{ title }}</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="players.css">
+    <link rel="stylesheet" href="winner.css">
+</head>
+<body>
+    <!-- header-start -->
+    <header>
+        <nav>
+            <a href="#" class="logo">CC Travel</a>
+            <ul class="main-nav">
+                <li><a href="#" class="logo" target="_blank">Game</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="contact /http:">Contact</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Rock_paper_scissors" target="_blank">Game Rules</a></li>
+                <li><a href="https://miro.com/welcomeonboard/STc0UEpTU3hsZG1RcEdxaVgzTjNkYThOZ0ZTalVIcUdBMmZweTlGdG1PeFRwZ0NQTXVHT1ppb2pOa1FSUDUxVnwzMDc0NDU3MzYwNDM2NTE4MTQ5" target="_blank">Game Diagram</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header-end -->
+    
+    <main>
+        {% block players %}
+        
+        {% endblock %}
+    
+        
+        {% block winner %}
+    
+        {% endblock %}
+
+        
+
+    </main>
+    <!-- main - end -->
+    <footer>
+
+    </footer>
+    <!-- footer - end-->
+</body>
+</html>
+
